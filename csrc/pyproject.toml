@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_plugins"
+version = "0.1.0"
+description = "my_plugins"
+authors = [{name = "jinxiaocheng", email = "kim010565@163.com"}]
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[tool.setuptools]
+packages = ["binding"]
